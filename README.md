@@ -1,4 +1,6 @@
-# Image-Transformation
+### EX NO : 05
+### DATE  : 30.04.2022
+# <p align="center">Image-Transformation</p>
 ## Aim
 To perform image transformation such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping using OpenCV and Python.
 
@@ -21,6 +23,10 @@ Scale the image using<br>Scaling_Matrix=np.float32([[1.2,0,0],[0,1.2,0],[0,0,1]]
 ### Step4:
 Shear the image using<br>Shearing_matrix=np.float32([[1,0.2,0],[0.2,1,0],[0,0,1]])<br>Sheared_image=cv2.warpPerspective(org_img,Shearing_matrix,(col2,int(row1.5)))
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ### Step5:
 Reflection of image can be achieved through the code<br>Reflection_matrix_row=np.float32([[1,0,0],[0,-1,row],[0,0,1]]) <br>Reflected_image_row=cv2.warpPerspective(org_img,Reflection_matrix_row,(col,int(row)))
@@ -39,9 +45,10 @@ Display all the Transformed images.
 <br>
 
 ## Program:
+```python
 ### Developed By: J Vincent isaac jeyaraj
 ### Register Number: 212220230060
-```python
+
 i)Image Translation
 import numpy as np
 import cv2
@@ -94,31 +101,69 @@ cropped_img=img[10:350,320:560]
 plt.axis("off")
 plt.imshow(cropped_img))
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Output:
 ### i)Image Translation
 ![Screenshot (42)](https://user-images.githubusercontent.com/75234588/166111732-f5f9da35-c94b-460e-a0b2-ff0061592208.png)
 
-<br>
 
 ![Screenshot (43)](https://user-images.githubusercontent.com/75234588/166112103-8d606d57-b5a8-4f48-9dd4-da470143e19d.png)
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-# ii) Image Scaling
-##![Screenshot (44)](https://user-images.githubusercontent.com/75234588/166111757-860b0dc8-6dd9-499d-8e94-e74806196572.png)
+### ii) Image Scaling
+![Screenshot (44)](https://user-images.githubusercontent.com/75234588/166111757-860b0dc8-6dd9-499d-8e94-e74806196572.png)
 
 ### iii)Image shearing
 ![Screenshot (45)](https://user-images.githubusercontent.com/75234588/166111783-5175403e-4621-4e79-a8e5-b447bf86175d.png)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### iv)Image Reflection
 ![Screenshot (49)](https://user-images.githubusercontent.com/75234588/166112077-85264b69-ab6a-49cc-bcb9-9d27f6d3bd6c.png)
-<br>
+
+
 ![Screenshot (50)](https://user-images.githubusercontent.com/75234588/166112098-51f310e2-c1a5-449a-a075-19d781d26bff.png)
 
 
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### v)Image Rotation
 ![Screenshot (47)](https://user-images.githubusercontent.com/75234588/166111846-350728e8-97db-4cad-8481-37dd5374fa73.png)
